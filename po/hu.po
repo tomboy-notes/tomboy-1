@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: tomboy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=tomboy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-09 17:29+0000\n"
-"PO-Revision-Date: 2012-12-27 15:30+0100\n"
+"POT-Creation-Date: 2012-12-27 14:32+0000\n"
+"PO-Revision-Date: 2012-12-27 16:05+0100\n"
 "Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: \n"
@@ -670,7 +670,7 @@ msgstr "Kilépés a Tomboyból"
 msgid "_Edit"
 msgstr "S_zerkesztés"
 
-#: ../Tomboy/ActionManager.cs:154 ../Tomboy/PreferencesDialog.cs:63
+#: ../Tomboy/ActionManager.cs:154 ../Tomboy/PreferencesDialog.cs:65
 msgid "Tomboy Preferences"
 msgstr "A Tomboy beállításai"
 
@@ -948,7 +948,6 @@ msgid "_Tools"
 msgstr "_Eszközök"
 
 #: ../Tomboy/Addins/RemoveBrokenLinks/RemoveBrokenLinksApplicationAddin.cs:44
-#| msgid "Remove broken links"
 msgid "_Remove broken links"
 msgstr "_Törött hivatkozások eltávolítása"
 
@@ -1424,7 +1423,7 @@ msgstr "Hiba a jegyzet adatainak mentésekor."
 
 #. New Note Template
 #. Translators: This is 'New Note' Template, not New 'Note Template'
-#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:263
+#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:257
 msgid "New Note Template"
 msgstr "Új jegyzet sablonja"
 
@@ -1743,7 +1742,6 @@ msgstr "_Tovább"
 #. x of x - specifically Number of Matches and what location is the cursor in the list of matches
 #: ../Tomboy/NoteWindow.cs:885
 #, csharp-format
-#| msgid "Page {0} of {1}"
 msgid "{0} of {1}"
 msgstr "{0}/{1}"
 
@@ -1795,27 +1793,27 @@ msgstr "Betűméret csökkentése"
 msgid "Bullets"
 msgstr "Felsorolás"
 
-#: ../Tomboy/PreferencesDialog.cs:74
+#: ../Tomboy/PreferencesDialog.cs:81
 msgid "Editing"
 msgstr "Szerkesztés"
 
-#: ../Tomboy/PreferencesDialog.cs:77
+#: ../Tomboy/PreferencesDialog.cs:84
 msgid "Hotkeys"
 msgstr "Gyorsbillentyűk"
 
-#: ../Tomboy/PreferencesDialog.cs:79
+#: ../Tomboy/PreferencesDialog.cs:86
 msgid "Synchronization"
 msgstr "Szinkronizálás"
 
-#: ../Tomboy/PreferencesDialog.cs:80
+#: ../Tomboy/PreferencesDialog.cs:88
 msgid "Add-ins"
 msgstr "Bővítmények"
 
-#: ../Tomboy/PreferencesDialog.cs:180
+#: ../Tomboy/PreferencesDialog.cs:174
 msgid "_Spell check while typing"
 msgstr "_Helyesírás-ellenőrzés gépelés közben"
 
-#: ../Tomboy/PreferencesDialog.cs:189
+#: ../Tomboy/PreferencesDialog.cs:183
 msgid ""
 "Misspellings will be underlined in red, with correct spelling suggestions "
 "shown in the context menu."
@@ -1824,11 +1822,11 @@ msgstr ""
 "felbukkanó menüben jelennek meg."
 
 #. WikiWords...
-#: ../Tomboy/PreferencesDialog.cs:200
+#: ../Tomboy/PreferencesDialog.cs:194
 msgid "Highlight _WikiWords"
 msgstr "_Wiki-szavak kiemelése"
 
-#: ../Tomboy/PreferencesDialog.cs:208
+#: ../Tomboy/PreferencesDialog.cs:202
 msgid ""
 "Enable this option to highlight words <b>ThatLookLikeThis</b>. Clicking the "
 "word will create a note with that name."
@@ -1837,31 +1835,31 @@ msgstr ""
 "kattintás a szóra új jegyzetet hoz létre, ezzel a névvel."
 
 #. Auto bulleted list
-#: ../Tomboy/PreferencesDialog.cs:215
+#: ../Tomboy/PreferencesDialog.cs:209
 msgid "Enable auto-_bulleted lists"
 msgstr "A_utomatikusan felsorolásjelezett listák engedélyezése"
 
-#: ../Tomboy/PreferencesDialog.cs:224
+#: ../Tomboy/PreferencesDialog.cs:218
 msgid "Use custom _font"
 msgstr "_Egyéni betűkészlet használata"
 
-#: ../Tomboy/PreferencesDialog.cs:242
+#: ../Tomboy/PreferencesDialog.cs:236
 msgid "When renaming a linked note: "
 msgstr "Hivatkozott jegyzet átnevezésekor: "
 
-#: ../Tomboy/PreferencesDialog.cs:245
+#: ../Tomboy/PreferencesDialog.cs:239
 msgid "Ask me what to do"
 msgstr "Mindig kérdezzen"
 
-#: ../Tomboy/PreferencesDialog.cs:246
+#: ../Tomboy/PreferencesDialog.cs:240
 msgid "Never rename links"
 msgstr "Soha ne nevezze át a hivatkozásokat"
 
-#: ../Tomboy/PreferencesDialog.cs:247
+#: ../Tomboy/PreferencesDialog.cs:241
 msgid "Always rename links"
 msgstr "Mindig nevezze át a hivatkozásokat"
 
-#: ../Tomboy/PreferencesDialog.cs:267
+#: ../Tomboy/PreferencesDialog.cs:261
 msgid ""
 "Use the new note template to specify the text that should be used when "
 "creating a new note."
@@ -1869,105 +1867,105 @@ msgstr ""
 "Az új jegyzetek sablonjának segítségével megadható az új jegyzet "
 "létrehozásakor használandó szöveg."
 
-#: ../Tomboy/PreferencesDialog.cs:276
+#: ../Tomboy/PreferencesDialog.cs:270
 msgid "Open New Note Template"
 msgstr "Új jegyzetek sablonjának megnyitása"
 
 #. Hotkeys...
-#: ../Tomboy/PreferencesDialog.cs:333
+#: ../Tomboy/PreferencesDialog.cs:327
 msgid "Listen for _Hotkeys"
 msgstr "_Gyorsbillentyűk figyelése"
 
-#: ../Tomboy/PreferencesDialog.cs:342
+#: ../Tomboy/PreferencesDialog.cs:336
 #| msgid ""
 #| "Hotkeys allow you to quickly access your notes from anywhere with a "
-#| "keypress. Example Hotkeys: <b>&lt;Control&gt;&lt;Shift&gt;F11</b>, <b>&lt;"
-#| "Alt&gt;N</b>"
+#| "keypress. Example Hotkeys: <b>&lt;ALT&gt;F11</b>, <b>&lt;ALT&gt;N</b>"
 msgid ""
 "Hotkeys allow you to quickly access your notes from anywhere with a "
-"keypress. Example Hotkeys: <b>&lt;ALT&gt;F11</b>, <b>&lt;ALT&gt;N</b>"
+"keypress. Example Hotkeys: <b>&lt;Control&gt;&lt;Shift&gt;F11</b>, <b>&lt;"
+"Alt&gt;N</b>"
 msgstr ""
 "A gyorsbillentyűk segítségével bárhonnan gyorsan elérheti jegyzeteit egy "
-"gombnyomással. Példa gyorsbillentyűk: <b>&lt;ALT&gt;F11</b>, <b>&lt;ALT&gt;N<"
-"/b>"
+"gombnyomással. Példa gyorsbillentyűk: <b>&lt;Control&gt;&lt;Shift&gt;F11</"
+"b>, <b>&lt;Alt&gt;N</b>"
 
 #. Show notes menu keybinding...
-#: ../Tomboy/PreferencesDialog.cs:362
+#: ../Tomboy/PreferencesDialog.cs:356
 msgid "Show notes _menu"
 msgstr "Jegyzetek menü _megjelenítése"
 
 #. Open Start Here keybinding...
-#: ../Tomboy/PreferencesDialog.cs:379
+#: ../Tomboy/PreferencesDialog.cs:373
 msgid "Open \"_Start Here\""
 msgstr "„_Kezdje itt!” megnyitása"
 
 #. Create new note keybinding...
-#: ../Tomboy/PreferencesDialog.cs:396
+#: ../Tomboy/PreferencesDialog.cs:390
 msgid "Create _new note"
 msgstr "Ú_j jegyzet létrehozása"
 
 #. Open Search All Notes window keybinding...
-#: ../Tomboy/PreferencesDialog.cs:413
+#: ../Tomboy/PreferencesDialog.cs:407
 msgid "Open \"Search _All Notes\""
 msgstr "A „Keresés _minden jegyzetben” megnyitása"
 
-#: ../Tomboy/PreferencesDialog.cs:440
+#: ../Tomboy/PreferencesDialog.cs:434
 msgid "Ser_vice:"
 msgstr "S_zolgáltatás:"
 
-#: ../Tomboy/PreferencesDialog.cs:493 ../Tomboy/PreferencesDialog.cs:1112
+#: ../Tomboy/PreferencesDialog.cs:487 ../Tomboy/PreferencesDialog.cs:1106
 msgid "Not configurable"
 msgstr "Nem konfigurálható"
 
-#: ../Tomboy/PreferencesDialog.cs:519
+#: ../Tomboy/PreferencesDialog.cs:513
 msgid "Automaticall_y Sync in Background Every"
 msgstr "A_utomatikus szinkronizálás a háttérben minden"
 
 #. Translators: See above comment for details on
 #. this string.
-#: ../Tomboy/PreferencesDialog.cs:525
+#: ../Tomboy/PreferencesDialog.cs:519
 msgid "Minutes"
 msgstr "percben"
 
 #. "Advanced..." button to bring up extra sync config dialog
-#: ../Tomboy/PreferencesDialog.cs:547
+#: ../Tomboy/PreferencesDialog.cs:541
 msgid "_Advanced..."
 msgstr "Spe_ciális…"
 
-#: ../Tomboy/PreferencesDialog.cs:608
+#: ../Tomboy/PreferencesDialog.cs:602
 msgid "The following add-ins are installed"
 msgstr "A következő bővítmények vannak telepítve"
 
-#: ../Tomboy/PreferencesDialog.cs:629
+#: ../Tomboy/PreferencesDialog.cs:623
 msgid "Get More Add-Ins..."
 msgstr "További bővítmények letöltése"
 
-#: ../Tomboy/PreferencesDialog.cs:647
+#: ../Tomboy/PreferencesDialog.cs:641
 msgid "_Enable"
 msgstr "_Engedélyezés"
 
-#: ../Tomboy/PreferencesDialog.cs:653
+#: ../Tomboy/PreferencesDialog.cs:647
 msgid "_Disable"
 msgstr "_Tiltás"
 
-#: ../Tomboy/PreferencesDialog.cs:784
+#: ../Tomboy/PreferencesDialog.cs:778
 msgid "Not Implemented"
 msgstr "Nincs megvalósítva"
 
-#: ../Tomboy/PreferencesDialog.cs:798
+#: ../Tomboy/PreferencesDialog.cs:792
 #, csharp-format
 msgid "{0} Preferences"
 msgstr "{0} beállításai"
 
-#: ../Tomboy/PreferencesDialog.cs:937
+#: ../Tomboy/PreferencesDialog.cs:931
 msgid "Choose Note Font"
 msgstr "Jegyzet betűkészletének kiválasztása"
 
-#: ../Tomboy/PreferencesDialog.cs:981
+#: ../Tomboy/PreferencesDialog.cs:975
 msgid "Other Synchronization Options"
 msgstr "A szinkronizálás további beállításai"
 
-#: ../Tomboy/PreferencesDialog.cs:987
+#: ../Tomboy/PreferencesDialog.cs:981
 msgid ""
 "When a conflict is detected between a local note and a note on the "
 "configured synchronization server:"
@@ -1975,23 +1973,23 @@ msgstr ""
 "Ha helyi és a beállított szinkronizálási kiszolgálón található jegyzet "
 "között ütközés van:"
 
-#: ../Tomboy/PreferencesDialog.cs:994
+#: ../Tomboy/PreferencesDialog.cs:988
 msgid "Always ask me what to do."
 msgstr "Mindig kérdezzen"
 
-#: ../Tomboy/PreferencesDialog.cs:998
+#: ../Tomboy/PreferencesDialog.cs:992
 msgid "Rename my local note."
 msgstr "Nevezze át a helyi jegyzetet"
 
-#: ../Tomboy/PreferencesDialog.cs:1002
+#: ../Tomboy/PreferencesDialog.cs:996
 msgid "Replace my local note with the server's update."
 msgstr "Cserélje a helyi jegyzetet a kiszolgálón találhatóra"
 
-#: ../Tomboy/PreferencesDialog.cs:1148
+#: ../Tomboy/PreferencesDialog.cs:1142
 msgid "Are you sure?"
 msgstr "Biztos benne?"
 
-#: ../Tomboy/PreferencesDialog.cs:1150
+#: ../Tomboy/PreferencesDialog.cs:1144
 msgid ""
 "Clearing your synchronization settings is not recommended.  You may be "
 "forced to synchronize all of your notes again when you save new settings."
@@ -1999,11 +1997,11 @@ msgstr ""
 "A szinkronizálás beállításainak törlése nem ajánlott. Új beállítások "
 "mentésekor szükség lehet a jegyzetek újraszinkronizálására."
 
-#: ../Tomboy/PreferencesDialog.cs:1163
+#: ../Tomboy/PreferencesDialog.cs:1157
 msgid "Resetting Synchronization Settings"
 msgstr "Szinkronizálás beállításainak visszaállítása"
 
-#: ../Tomboy/PreferencesDialog.cs:1165
+#: ../Tomboy/PreferencesDialog.cs:1159
 msgid ""
 "You have disabled the configured synchronization service.  Your "
 "synchronization settings will now be cleared.  You may be forced to "
@@ -2013,11 +2011,11 @@ msgstr ""
 "beállításai törlésre kerülnek. Új beállítások mentésekor szükség lehet a "
 "jegyzetek újraszinkronizálására."
 
-#: ../Tomboy/PreferencesDialog.cs:1243
+#: ../Tomboy/PreferencesDialog.cs:1237
 msgid "Connection successful"
 msgstr "A kapcsolódás sikeres"
 
-#: ../Tomboy/PreferencesDialog.cs:1245
+#: ../Tomboy/PreferencesDialog.cs:1239
 msgid ""
 "Tomboy is ready to synchronize your notes. Would you like to synchronize "
 "them now?"
@@ -2025,7 +2023,7 @@ msgstr ""
 "A Tomboy készen áll a jegyzetei szinkronizálására. Kívánja azokat most "
 "szinkronizálni?"
 
-#: ../Tomboy/PreferencesDialog.cs:1268
+#: ../Tomboy/PreferencesDialog.cs:1262
 #, csharp-format
 msgid ""
 "Please check your information and try again.  The log file {0} may contain "
@@ -2034,23 +2032,23 @@ msgstr ""
 "Ellenőrizze az információkat, és próbálkozzon újra. A(z) {0} naplófájl "
 "további információkat tartalmazhat a hibáról."
 
-#: ../Tomboy/PreferencesDialog.cs:1280
+#: ../Tomboy/PreferencesDialog.cs:1274
 msgid "Error connecting"
 msgstr "Hiba a csatlakozáskor"
 
-#: ../Tomboy/PreferencesDialog.cs:1364
+#: ../Tomboy/PreferencesDialog.cs:1357
 msgid "Version:"
 msgstr "Verzió:"
 
-#: ../Tomboy/PreferencesDialog.cs:1371
+#: ../Tomboy/PreferencesDialog.cs:1364
 msgid "Author:"
 msgstr "Szerző:"
 
-#: ../Tomboy/PreferencesDialog.cs:1378
+#: ../Tomboy/PreferencesDialog.cs:1371
 msgid "Copyright:"
 msgstr "Copyright:"
 
-#: ../Tomboy/PreferencesDialog.cs:1384
+#: ../Tomboy/PreferencesDialog.cs:1377
 msgid "Add-in Dependencies:"
 msgstr "Bővítmény függőségei:"
 
@@ -2384,22 +2382,22 @@ msgstr ""
 msgid "Cannot create new note"
 msgstr "Nem hozható létre új jegyzet"
 
-#: ../Tomboy/Tomboy.cs:316
+#: ../Tomboy/Tomboy.cs:319
 msgid "Primary Development:"
 msgstr "Elsődleges fejlesztő:"
 
-#: ../Tomboy/Tomboy.cs:329
+#: ../Tomboy/Tomboy.cs:332
 msgid "Contributors:"
 msgstr "Közreműködők:"
 
-#: ../Tomboy/Tomboy.cs:418
+#: ../Tomboy/Tomboy.cs:420
 msgid "translator-credits"
 msgstr ""
 "Kelemen Gábor <kelemeng at gnome dot hu>\n"
 "Kéménczy Kálmán <kkemenczy at novell dot com>\n"
 "Török Gábor <gabo at linuxportal dot hu>"
 
-#: ../Tomboy/Tomboy.cs:427
+#: ../Tomboy/Tomboy.cs:429
 msgid ""
 "Copyright © 2004-2007 Alex Graveley\n"
 "Copyright © 2004-2011 Others\n"
@@ -2407,15 +2405,15 @@ msgstr ""
 "Copyright © 2004-2007 Alex Graveley\n"
 "Copyright © 2004-2011 mások\n"
 
-#: ../Tomboy/Tomboy.cs:429
+#: ../Tomboy/Tomboy.cs:431
 msgid "A simple and easy to use desktop note-taking application."
 msgstr "Egyszerű és könnyen használható asztali jegyzetkezelő alkalmazás."
 
-#: ../Tomboy/Tomboy.cs:439
+#: ../Tomboy/Tomboy.cs:441
 msgid "Homepage"
 msgstr "Honlap"
 
-#: ../Tomboy/Tomboy.cs:575
+#: ../Tomboy/Tomboy.cs:577
 msgid ""
 "Tomboy: A simple, easy to use desktop note-taking application.\n"
 "Copyright © 2004-2007 Alex Graveley\n"
@@ -2429,7 +2427,7 @@ msgstr ""
 "\n"
 "Copyright © 2004-2011 mások\n"
 
-#: ../Tomboy/Tomboy.cs:589
+#: ../Tomboy/Tomboy.cs:591
 msgid ""
 "Usage:\n"
 "  --version\t\t\tPrint version information.\n"
@@ -2445,7 +2443,7 @@ msgstr ""
 "  --search [szöveg]\t\tA Keresés minden jegyzetben ablak megnyitása az\n"
 "\t\t\t\tadott keresőszöveggel.\n"
 
-#: ../Tomboy/Tomboy.cs:599
+#: ../Tomboy/Tomboy.cs:601
 msgid ""
 "  --new-note\t\t\tCreate and display a new note.\n"
 "  --new-note [title]\t\tCreate and display a new note, with a title.\n"
@@ -2461,7 +2459,7 @@ msgstr ""
 "  --highlight-search [szöveg]\tAz adott szöveg keresése és kiemelése a\n"
 "                             \tmegnyitott jegyzetben.\n"
 
-#: ../Tomboy/Tomboy.cs:609
+#: ../Tomboy/Tomboy.cs:611
 msgid ""
 "  --addin:html-export-all [path]\tExports all notes to HTML in the given "
 "location.\n"
@@ -2473,7 +2471,7 @@ msgstr ""
 "  --addin:html-export-all-quit [path]\tMinden jegyzetet HTML-be exportál a "
 "megadott helyen, majd kilép.\n"
 
-#: ../Tomboy/Tomboy.cs:619
+#: ../Tomboy/Tomboy.cs:621
 #, csharp-format
 msgid "Version {0}"
 msgstr "{0} verzió"
