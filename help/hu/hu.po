@@ -3,17 +3,19 @@
 # This file is distributed under the same license as the tomboy package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012.
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: tomboy-help master\n"
-"POT-Creation-Date: 2012-01-12 02:38+0000\n"
-"PO-Revision-Date: 2012-03-06 04:20+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"POT-Creation-Date: 2013-10-07 23:44+0000\n"
+"PO-Revision-Date: 2013-10-20 11:30+0200\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: C/whatsnew.page:9(desc)
@@ -21,11 +23,10 @@ msgid "What's new in <app>Tomboy Notes</app>."
 msgstr "A <app>Tomboy jegyzettömb</app> újdonságai."
 
 #: C/whatsnew.page:13(name) C/sync-setup.page:11(name) C/sync.page:11(name)
-#: C/search.page:12(name) C/problems.page:11(name) C/prefs.page:9(name)
-#: C/note-edit-prefs.page:11(name) C/introduction.page:12(name)
-#: C/index.page:9(name) C/hotkeys.page:11(name) C/edit-note.page:13(name)
-#: C/delete-notes.page:14(name) C/create-note.page:13(name)
-#: C/create-notebook.page:13(name) C/advanced.page:11(name)
+#: C/search.page:12(name) C/prefs.page:9(name) C/note-edit-prefs.page:11(name)
+#: C/introduction.page:12(name) C/index.page:9(name) C/hotkeys.page:11(name)
+#: C/edit-note.page:13(name) C/delete-notes.page:14(name)
+#: C/create-note.page:13(name) C/create-notebook.page:11(name)
 #: C/addins-tools.page:10(name) C/addins-sync.page:10(name)
 #: C/addins.page:11(name) C/addins-formatting.page:10(name)
 #: C/addins-desktop.page:10(name)
@@ -33,14 +34,13 @@ msgid "Paul Cutler"
 msgstr "Paul Cutler"
 
 #: C/whatsnew.page:14(email) C/sync-setup.page:12(email) C/sync.page:12(email)
-#: C/search.page:13(email) C/problems.page:12(email) C/prefs.page:10(email)
+#: C/search.page:13(email) C/prefs.page:10(email)
 #: C/note-edit-prefs.page:12(email) C/introduction.page:13(email)
 #: C/index.page:10(email) C/hotkeys.page:12(email) C/edit-note.page:14(email)
 #: C/delete-notes.page:15(email) C/create-note.page:14(email)
-#: C/create-notebook.page:14(email) C/advanced.page:12(email)
-#: C/addins-tools.page:11(email) C/addins-sync.page:11(email)
-#: C/addins.page:12(email) C/addins-formatting.page:11(email)
-#: C/addins-desktop.page:11(email)
+#: C/create-notebook.page:12(email) C/addins-tools.page:11(email)
+#: C/addins-sync.page:11(email) C/addins.page:12(email)
+#: C/addins-formatting.page:11(email) C/addins-desktop.page:11(email)
 msgid "pcutler@gnome.org"
 msgstr "pcutler@gnome.org"
 
@@ -179,9 +179,13 @@ msgstr ""
 "információit."
 
 #: C/sync-setup.page:70(p)
+#| msgid ""
+#| "<gui>Replace my local note with the server's update. </gui>. If you have "
+#| "selected this option, when you sync Tomboy will overwrite and replace "
+#| "your note stored on your computer with a copy from the remote computer."
 msgid ""
-"<gui>Replace my local note with the server's update. </gui>. If you have "
-"selected this option, when you sync Tomboy will overwrite and replace your "
+"<gui>Replace my local note with the server's update.</gui> If you have "
+"selected this option, when you sync, Tomboy will overwrite and replace your "
 "note stored on your computer with a copy from the remote computer."
 msgstr ""
 "<gui>Cserélje a helyi jegyzetet a kiszolgálón találhatóra.</gui> Ha ezt "
@@ -229,12 +233,19 @@ msgid "Configure Sync using SSH"
 msgstr "SSH-t használó szinkronizálás beállítása"
 
 #: C/sync-setup.page:109(p)
+#| msgid ""
+#| "In order to synchronize your notes with an SSH server, you will need the "
+#| "FUSE file system, also called <app>sshfs</app> installed. Follow the "
+#| "documentation for your operating system to set up FUSE for your user. You "
+#| "will also need an SSH key for your SSH server account that can be "
+#| "provided by the <app>GNOME Seahorse</app> application, which is also "
+#| "known as <app>Passwords and Encryption Keys</app>."
 msgid ""
 "In order to synchronize your notes with an SSH server, you will need the "
 "FUSE file system, also called <app>sshfs</app> installed. Follow the "
 "documentation for your operating system to set up FUSE for your user. You "
 "will also need an SSH key for your SSH server account that can be provided "
-"by the <app>GNOME Seahorse</app> application, which is also known as "
+"by the <app>Seahorse</app> application, which is also known as "
 "<app>Passwords and Encryption Keys</app>."
 msgstr ""
 "Jegyzetei SSH-kiszolgálóval való szinkronizálásához az <app>sshfs</app> FUSE "
@@ -430,18 +441,6 @@ msgstr ""
 "Ha jegyzeteit jegyzettömbökbe szervezte, akkor az adott kifejezésekre "
 "keresést leszűkítheti egy adott jegyzettömbre is a kérdéses jegyzettömb "
 "kijelölésével a keresőkifejezés megadása előtt."
-
-#: C/problems.page:8(desc)
-msgid "Common Problems."
-msgstr "Gyakori problémák."
-
-#: C/problems.page:23(title)
-msgid "Common problems"
-msgstr "Gyakori problémák"
-
-#: C/problems.page:27(title)
-msgid "Backing up and Restoring your notes"
-msgstr "Jegyzetek biztonsági mentése és helyreállítása"
 
 #: C/prefs.page:21(title) C/prefs.page:36(title) C/index.page:36(title)
 msgid "Tomboy Preferences"
@@ -681,8 +680,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/introduction.page:44(None)
-msgid "@@image: 'figures/tomboy.png'; md5=5e3c78a4507fadcaba53b74a0d3f30ae"
-msgstr "@@image: 'figures/tomboy.png'; md5=5e3c78a4507fadcaba53b74a0d3f30ae"
+#| msgid "@@image: 'figures/tomboy.png'; md5=5e3c78a4507fadcaba53b74a0d3f30ae"
+msgid "@@image: 'figures/tomboy.png'; md5=b9a2efd273d462e5374c3d624a65bd52"
+msgstr "@@image: 'figures/tomboy.png'; md5=b9a2efd273d462e5374c3d624a65bd52"
 
 #: C/introduction.page:8(desc)
 msgid "Introduction to <app>Tomboy Notes</app>."
@@ -747,14 +747,6 @@ msgstr "Jegyzetek kezelése"
 msgid "Organizing Notes"
 msgstr "Jegyzetek rendszerezése"
 
-#: C/index.page:40(title)
-msgid "Advanced Actions"
-msgstr "Speciális műveletek"
-
-#: C/index.page:44(title)
-msgid "Common Problems"
-msgstr "Gyakori problémák"
-
 #: C/index.page:48(title)
 msgid "What's New"
 msgstr "Újdonságok"
@@ -800,13 +792,15 @@ msgid "The actions available in Tomboy to be activated by hotkeys are:"
 msgstr "A gyorsbillentyűkkel aktiválható Tomboy műveletek a következők:"
 
 #: C/hotkeys.page:43(p)
-msgid "<gui>Show notes menu</gui>: <keyseq><key>Alt</key><key>F12</key></keyseq>"
+msgid ""
+"<gui>Show notes menu</gui>: <keyseq><key>Alt</key><key>F12</key></keyseq>"
 msgstr ""
 "<gui>Jegyzetek menü megjelenítése</gui>: <keyseq><key>Alt</key><key>F12</"
 "key></keyseq>"
 
 #: C/hotkeys.page:45(p)
-msgid "<gui>Open \"Start Here\"</gui>: <keyseq><key>Alt</key><key>F11</key></keyseq>"
+msgid ""
+"<gui>Open \"Start Here\"</gui>: <keyseq><key>Alt</key><key>F11</key></keyseq>"
 msgstr ""
 "<gui>„Kezdje itt!” megnyitása</gui>: <keyseq><key>Alt</key><key>F11</key></"
 "keyseq>"
@@ -965,20 +959,18 @@ msgstr ""
 "gombjának megnyomásával törölhető."
 
 #: C/delete-notes.page:30(p)
-msgid "Deleting a note is permanent. After deletion, the note is not recoverable."
-msgstr "A jegyzet törlése végleges. A törlés után a jegyzet nem állítható vissza."
+msgid ""
+"Deleting a note is permanent. After deletion, the note is not recoverable."
+msgstr ""
+"A jegyzet törlése végleges. A törlés után a jegyzet nem állítható vissza."
 
 #: C/delete-notes.page:31(p)
-#| msgid ""
-#| "<placeholder-1/> You will be prompted <placeholder-2/> when deleting a "
-#| "note."
 msgid ""
 "You will be prompted <gui>Really delete this note?</gui> when deleting a "
 "note."
 msgstr ""
 "Jegyzet törlésekor a <gui>Biztosan törli ezt a jegyzetet?</gui> kérdést "
-"teszi fel a "
-"program."
+"teszi fel a program."
 
 #: C/create-note.page:10(desc)
 msgid "Create a new note in Tomboy."
@@ -1013,15 +1005,15 @@ msgstr ""
 "és sok mást. További információkért lásd a <link xref=\"edit-notes\"/> "
 "oldalt."
 
-#: C/create-notebook.page:10(desc)
+#: C/create-notebook.page:8(desc)
 msgid "Create a new notebook in Tomboy."
 msgstr "Új jegyzettömb létrehozása a Tomboyban."
 
-#: C/create-notebook.page:25(title)
+#: C/create-notebook.page:23(title)
 msgid "Create a notebook"
 msgstr "Új jegyzettömb létrehozása"
 
-#: C/create-notebook.page:27(p)
+#: C/create-notebook.page:25(p)
 msgid ""
 "Notebooks allow you to group related notes together. You can add a note to a "
 "notebook in the Search All Notes window or directly inside of a Note."
@@ -1030,7 +1022,7 @@ msgstr ""
 "jegyzettömbhöz a Keresés minden jegyzetben ablakban, vagy közvetlenül a "
 "jegyzeten belül adhat jegyzetet."
 
-#: C/create-notebook.page:33(p)
+#: C/create-notebook.page:31(p)
 msgid ""
 "Click on the Tomboy note icon present in the GNOME Panel, the taskbar in "
 "Microsoft Windows, or the dock in Mac OS X. A menu will appear."
@@ -1038,22 +1030,23 @@ msgstr ""
 "Kattintson a GNOME panelen, Windows tálcán vagy az OS X dokkon lévő Tomboy "
 "ikonra. Megjelenik egy menü."
 
-#: C/create-notebook.page:43(p)
+#: C/create-notebook.page:41(p)
 msgid "Select <guiseq><gui>Notebooks</gui><gui>New Notebook</gui></guiseq>."
 msgstr ""
 "Válassza a <guiseq><gui>Jegyzettömbök</gui><gui>Új jegyzettömb</gui></"
 "guiseq> menüpontot."
 
-#: C/create-notebook.page:47(p) C/create-notebook.page:66(p)
-#: C/create-notebook.page:79(p)
+#: C/create-notebook.page:45(p) C/create-notebook.page:64(p)
+#: C/create-notebook.page:77(p)
 msgid "Enter a name for the new notebook."
 msgstr "Adja meg az új jegyzettömb nevét."
 
-#: C/create-notebook.page:51(p)
+#: C/create-notebook.page:49(p)
 msgid "To create a new notebook from the <gui>Search All Notes</gui> dialog:"
-msgstr "Új jegyzettömb létrehozása a <gui>Keresés minden jegyzetben</gui> ablakban:"
+msgstr ""
+"Új jegyzettömb létrehozása a <gui>Keresés minden jegyzetben</gui> ablakban:"
 
-#: C/create-notebook.page:56(p)
+#: C/create-notebook.page:54(p)
 msgid ""
 "Open <gui>Search All Notes</gui> by choosing it from the Tomboy icon on the "
 "GNOME Panel, the taskbar in Microsoft Windows, or the dock in Mac OS X, or "
@@ -1063,7 +1056,7 @@ msgstr ""
 "Windows tálcán vagy az OS X dokkon lévő Tomboy ikonra kattintva, vagy "
 "kattintson a Keresés gombra egy megnyitott jegyzetben."
 
-#: C/create-notebook.page:62(p)
+#: C/create-notebook.page:60(p)
 msgid ""
 "Using your mouse, right click in the left hand box and choose <gui>New "
 "Notebook</gui>."
@@ -1071,11 +1064,11 @@ msgstr ""
 "Kattintson a jobb egérgombbal a bal oldali mezőbe, és válassza az <gui>Új "
 "jegyzettömb</gui> menüpontot."
 
-#: C/create-notebook.page:70(p)
+#: C/create-notebook.page:68(p)
 msgid "Or:"
 msgstr "Vagy:"
 
-#: C/create-notebook.page:74(p)
+#: C/create-notebook.page:72(p)
 msgid ""
 "With <gui>Search All Notes</gui> open, choose <guiseq><gui>File</"
 "gui><gui>Notebooks</gui><gui>New Notebook</gui></guiseq>."
@@ -1083,22 +1076,6 @@ msgstr ""
 "A megnyitott <gui>Keresés minden jegyzetben</gui> ablakban válassza a "
 "<guiseq><gui>Fájl</gui><gui>Jegyzettömbök</gui><gui>Új jegyzettömb</gui></"
 "guiseq> menüpontot."
-
-#: C/advanced.page:8(desc)
-msgid "Advanced actions and help."
-msgstr "Speciális műveletek és segítség."
-
-#: C/advanced.page:23(title)
-msgid "Advanced actions"
-msgstr "Speciális műveletek"
-
-#: C/advanced.page:27(title)
-msgid "Creating a Note Template"
-msgstr "Jegyzetsablon létrehozása"
-
-#: C/advanced.page:33(title)
-msgid "Tomboy Notes Location"
-msgstr "Tomboy jegyzetek helye"
 
 #: C/addins-tools.page:7(desc)
 msgid "Enable additional note functionality."
@@ -1430,6 +1407,32 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Kelemen Gábor <kelemeng at gnome dot hu>"
 
+#~ msgid "Common Problems."
+#~ msgstr "Gyakori problémák."
+
+#~ msgid "Common problems"
+#~ msgstr "Gyakori problémák"
+
+#~ msgid "Backing up and Restoring your notes"
+#~ msgstr "Jegyzetek biztonsági mentése és helyreállítása"
+
+#~ msgid "Advanced Actions"
+#~ msgstr "Speciális műveletek"
+
+#~ msgid "Common Problems"
+#~ msgstr "Gyakori problémák"
+
+#~ msgid "Advanced actions and help."
+#~ msgstr "Speciális műveletek és segítség."
+
+#~ msgid "Advanced actions"
+#~ msgstr "Speciális műveletek"
+
+#~ msgid "Creating a Note Template"
+#~ msgstr "Jegyzetsablon létrehozása"
+
+#~ msgid "Tomboy Notes Location"
+#~ msgstr "Tomboy jegyzetek helye"
+
 #~ msgid "Really delete this note?"
 #~ msgstr "Valóban törli ezt a jegyzetet?"
-
