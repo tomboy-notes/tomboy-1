@@ -14,10 +14,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tomboy\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=tomboy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-04-18 14:37+0000\n"
-"PO-Revision-Date: 2013-04-25 14:09+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-09 20:32+0100\n"
+"PO-Revision-Date: 2014-01-09 20:33+0100\n"
 "Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -25,9 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.5\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/GNOME_TomboyApplet.server.in.in.h:1
@@ -743,17 +740,16 @@ msgstr "Erweitert"
 
 #. Menu Min Note Count option
 #: ../Tomboy/Addins/AdvancedPreferences/MenuMinMaxNoteCountPreference.cs:34
-#, fuzzy
-#| msgid "Minimum number of notes to show in Recent list (maximum 18)"
 msgid "Minimum number of notes to show in Recent list"
-msgstr "Mindestanzahl der in der Notizliste anzuzeigenden Notizen (maximal 18)"
+msgstr ""
+"Mindestanzahl der in der Liste zuletzt verwendeter Dateien anzuzeigenden "
+"Notizen"
 
 #. Menu Max Note Count option
 #: ../Tomboy/Addins/AdvancedPreferences/MenuMinMaxNoteCountPreference.cs:58
-#, fuzzy
-#| msgid "Minimum number of notes to show in Recent list (maximum 18)"
 msgid "Maximum number of notes to show in Recent list"
-msgstr "Mindestanzahl der in der Notizliste anzuzeigenden Notizen (maximal 18)"
+msgstr ""
+"Höchstzahl der in der Liste zuletzt verwendeter Dateien anzuzeigenden Notizen"
 
 #: ../Tomboy/Addins/Backlinks/BacklinksNoteAddin.cs:38
 msgid "What links here?"
