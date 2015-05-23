@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Threading;
 
 using Mono.Unix;
+using System.Globalization;
 
 namespace Tomboy
 {
@@ -475,13 +476,17 @@ Ciao!");
 		{
 			int new_num = notes.Count;
 			string temp_title;
-
+			
+			// Gets format of day name, date, and time from current user-defind culture
+			string date_format = CultureInfo.CurrentCulture.DateTimeFormat.FullDateTimePattern.ToString ();
+			
 			while (true) {
-                temp_title = String.Format (Catalog.GetString ("Note from {0}"), DateTime.Now.ToString ( Catalog.GetString ("yyyy-MM-dd HH:mm:ss.fff")));
+				// DateTimeFormat string applied here instead of "yyyy-MM-dd HH:mm:ss.fff"
+				temp_title = String.Format (Catalog.GetString ("Note from {0}"), DateTime.Now.ToString ( Catalog.GetString (date_format)));
 				if (Find (temp_title) == null)
 					break;
 			}
-
+			
 			return Create (temp_title);
 		}
 
