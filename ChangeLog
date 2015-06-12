@@ -1,4 +1,4 @@
 2015-05-23  willbuntu  <wyznaga@gmail.com>
 
 	* NoteManager.cs: 
-
+		patched Bug 743113 (https://bugzilla.gnome.org/show_bug.cgi?id=743113) - see commit message(s)
